@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { motion } from "motion/react"
 import { Squash as Hamburger } from 'hamburger-react'
+import arrow from "../assets/arrow.svg";
+import cart from "../assets/cart.svg";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +34,9 @@ const Navbar = () => {
             <div className='flex justify-center items-center gap-6 mr-12 text-xs max-sm:hidden '>
                 <div className='flex justify-center items-center gap-2'>
                     <p className='font-semibold text-black'>Customers</p>
-                    <img src="./src/assets/arrow.svg" className='-mb-0.5 cursor-pointer' alt="Arrow button" width={15}/>
+                    <img src={arrow} className='-mb-0.5 cursor-pointer' alt="Arrow button" width={15}/>
                 </div>
-                <img src="./src/assets/cart.svg" alt="Cart button" className='cursor-pointer hover:scale-110 transition-transform duration-300' width={42}/>
+                <img src={cart} alt="Cart button" className='cursor-pointer hover:scale-110 transition-transform duration-300' width={42}/>
             </div>
         </div>
         {/* Mobile Screen Navbar */}

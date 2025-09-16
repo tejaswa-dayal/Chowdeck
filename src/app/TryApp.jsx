@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import CTAButton from '../components/CTAButton';
+import playstoreIcon from "../assets/playstore.svg"
+import appleIcon from "../assets/apple.svg"
 
 const TryApp = () => {
     const [activeTab, setActiveTab] = useState('Customer');
@@ -54,8 +56,8 @@ const TryApp = () => {
     <h2 className='text-5xl text-black font-bold'>Try the App</h2>
     <p className='max-md:px-4 lg:max-w-[30%] font-light'>Have meals delivered to you within minutes from a wide variety of restaurants ranging from African to Continental cuisines to satisfy your cravings.</p>
     <div className='flex gap-1'>
-      <CTAButton color={'green'} icon={'./src/assets/playstore.svg'} title={''} iconSize={20}/>
-      <CTAButton color={'green'} icon={'./src/assets/apple.svg'} title={''} iconSize={20} />
+      <CTAButton color={'green'} icon={playstoreIcon} title={''} iconSize={20}/>
+      <CTAButton color={'green'} icon={appleIcon} title={''} iconSize={20} />
     </div>
     <img src="./TryAppImage.jpg" alt="" width={320} data-aos="fade-left"/>
     </div>

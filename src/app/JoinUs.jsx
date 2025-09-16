@@ -6,6 +6,8 @@ import diamond from '/diamond.svg'
 import StartSelling from '/StartSelling.jpg'
 import DeliverHappiness from '/DeliverHappiness.jpg'
 import BehindTheScenes from '/BehindTheScenes.jpg'
+import downArrowIcon from "../assets/downArrow.svg"
+
 
 const JoinUs = () => {
   const startSellingContent = 'Are you a restaurant owner looking to grow your business? Reach new customers when you join our network.';
@@ -15,7 +17,7 @@ const JoinUs = () => {
     <div className='flex flex-col justify-center items-center'>
     <div className='py-10 flex justify-center items-center gap-1'>
       <h1 className='md:text-5xl text-2xl font-light text-(--primary-grey)'>Join our growing network</h1>
-      <img src="./src/assets/downArrow.svg" alt="" className='mt-1' width={40}/>
+      <img src={downArrowIcon} alt="" className='mt-1' width={40}/>
     </div>
     <div className='flex flex-col md:flex-row justify-center items-center gap-10'>
       <JoinUsCard title={'Start Selling'} icon={star} image={StartSelling} content={startSellingContent}/>
