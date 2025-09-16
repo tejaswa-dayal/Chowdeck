@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
             <ul className='flex justify-center items-center gap-12 font-semibold text-black text-xs max-sm:hidden'>
                 <li className='hover:text-(--secondary-green) cursor-pointer transition-colors duration-300'>
-                    Comapny
+                    Company
                 </li>
                 <li className='hover:text-(--secondary-green) cursor-pointer transition-colors duration-300'>
                     FAQs
@@ -49,7 +49,7 @@ const Navbar = () => {
                 <div className='w-full'>
                     <ul className='flex flex-col justify-center items-center gap-20 font-semibold text-white text-4xl '>
                 <li className='hover:text-(--secondary-green) cursor-pointer transition-all duration-300 text-center w-full pb-15 border-b-1 border-gray-200/50'>
-                    Comapny
+                    Company
                 </li>
                 <li className='hover:text-(--secondary-green) cursor-pointer transition-colors duration-300 text-center w-full pb-15 border-b-1 border-gray-200/50'>
                     FAQs
